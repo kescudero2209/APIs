@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+#title{
+    text-align: center;
+    border: 1px solid #ffffff73;
+    margin: 10px;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+#box{
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    align-items: center;
+    width: 12rem;
+    gap:10px;
+    padding: 10px;
+}
+input{
+    width:150px
+}
+#final{
+    padding:10px;
+}
+p{
+    font-size: 1rem;
+}

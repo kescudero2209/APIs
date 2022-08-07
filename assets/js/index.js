@@ -36,10 +36,11 @@ document.getElementById("valueCLP").value = "";
 
           graphics.destroy(); //evita que salga el grafico en pantalla
         }
-
+        const rounded = valueCLP.value / data.serie[0].valor
+console.log(rounded.toFixed(2));
         return `
         <h3>
-            <p>Resultado: ${data.serie[0].valor * valueCLP.value}</p>
+            <p>Resultado: ${rounded.toFixed(2)}</p>
         </h3>`;
       }
 
